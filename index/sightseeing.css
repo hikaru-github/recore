@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+section.Sightseeing_top {
+margin-bottom: 160px;
+}
+
+.title_wrapper h2 {
+  font-size: 5.2rem;
+  letter-spacing: 0.5rem;
+  font-weight: normal;
+  padding-top: 100px;
+  margin-bottom: 160px;
+}
+
+.yoro_image {
+  margin: 0 10vw 80px;
+}
+.yoro_image img {
+  width: 65vw;
+  max-height: 800px;
+}
+.sightseeing_text_wrapper {
+    margin: 0 10vw 80px;
+    padding: 0;
+}
+.sightseeing_ja_wrapper {
+  margin-bottom: 50px;
+}
+.sightseeing_illust_texts_1, 
+.sightseeing_illust_texts_2,
+.sightseeing_illust_texts_3 {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  line-height: 4.0rem;
+  letter-spacing: 0.18rem;
+}
+.sightseeing_illust_texts_1 {
+  padding: 50px 0px 10px;
+}
+.sightseeing_illust_texts_2 {
+  padding: 30px 25px 0px;
+}
+.sightseeing_illust_texts_3 {
+  padding-top: 20px;
+}
+.sightseeing_en_1 {
+  align-items: center;
+  padding: 0 25px 15px;
+  margin: 0 auto;
+}
+.sightseeing_illust_texts_1 .sightseeing_text_1,
+.sightseeing_illust_texts_3 .sightseeing_text_3 {
+  max-width: 742px;
+}
+.sightseeing_text_3 {
+    font-size: 1.6rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.18rem;
+    width: 90%;
+}
+.sightseeing_illust_1, .sightseeing_illust_3 {
+  width: 19%;
+  margin-right: 2em;
+}
+.sightseeing_illust_texts_2 .sightseeing_text_2 {
+  width: 60%;
+}
+.sightseeing_illust_1 img, .sightseeing_illust_3 img {
+  width: 100%;
+  margin-right: 25px;
+}
+.sightseeing_illust_2 {
+  width: 25%;
+}
+.sightseeing_illust_2 img {
+  width: 100%;
+  margin-left: 20px;
+}
+.sightseeing_en_wrapper {
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+@media(max-width: 1024px) {
+  section.Sightseeing_top {
+  margin: 0px 0 50px;
+  padding-top: 50px;
+}
+  .title_wrapper h2 {
+  font-size: 2.6rem;
+  margin: 50px 0;
+  padding-top: 0;
+}
+  .yoro_image {
+  width: 100%;
+  margin: 0 0 50px;
+}
+  .yoro_image img {
+  width: 80%;
+  max-height: 290px;
+}
+.sightseeing_illust_texts_1 {
+  padding: 10px 25px 10px;
+  text-align: left;
+  }
+  .sss_illu_text_wrapper_1, .sss_illu_text_wrapper_2 {
+    width: 100%;
+  }
+  .sss_illu_text_wrapper_1 img {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-right: 20px;
+  }
+  .sss_illu_text_wrapper_2 img {
+    width: 63%;
+    float: right;
+    height: auto;
+    margin: 0 0 10px 5px;
+  }
+  .sss_illu_text_wrapper_1, .sss_illu_text_wrapper_2 {
+    text-align: left;
+  }
+  .sss_illu_text_wrapper_2  {
+    margin-bottom: 30px;
+  }
+  .sightseeing_ja_wrapper {
+  margin-bottom: 15px;
+}
+  .sightseeing_en_wrapper {
+    font-size: 1.4rem;
+    line-height: 23px;
+    letter-spacing: 0.16rem;
+  }
+  .sightseeing_en_1 {
+    padding: 0;
+}
+  }
+  
+  
