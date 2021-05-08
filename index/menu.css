@@ -1,0 +1,308 @@
+@charset "utf-8";
+/* CSS Document */
+section.menu {
+  margin: 100px 20vw 200px;
+}
+section.menu h2 {
+  font-size: 5.2rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 160px;
+  font-weight: normal;
+}
+section.menu h3 {
+  color: #4f3821;
+  font-size: 3.6rem;
+  letter-spacing: 0.5rem;
+  margin: 85px 0 50px;
+}
+.aroma-wrapper, .lympha-wrapper, .headspa_wrapper {
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 80px;
+  margin: 0 auto;
+  max-width: 730px;
+}
+.aroma-wrapper ul.price li.short {
+  line-height: 1.2rem;
+  margin-bottom: 8px;
+}
+.title-wrapper {
+  margin-bottom: 28px;
+}
+.title-en {
+  font-size: 2.0rem;
+  letter-spacing: 0.3rem;
+}
+section.menu h4 {
+  font-size: 3.2rem;
+  padding-bottom: 20px;
+}
+ul.price {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 2.6rem;
+  line-height: 6rem;
+  margin-bottom: 35px;
+}
+.text-ja {
+  font-family: 'Noto Serif JP', serif;
+  padding-bottom: 10px;
+  line-height: 3.4rem;
+  letter-spacing: .1em;
+}
+.text-en {
+  font-size: 1.6rem;
+  line-height: 3.4rem;
+  letter-spacing: 0.2rem;
+}
+.customized_oils {
+  color: #4f3821;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 65px 0;
+}
+.customized_oils-image img {
+  width: 20vw;
+  margin-right: 52px;
+}
+.customized_oils-texts h5 {
+  margin-bottom: 18px;
+  font-size: 2.2rem;
+  letter-spacing: 0.2rem;
+}
+.customized_oils-texts p.text-ja {
+  font-size: 2.6rem;
+  line-height: 4.4rem;
+  padding-bottom: 15px;
+}
+.customized_oils-texts .text-ja_2 {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.8rem;
+  letter-spacing: 0.12rem;
+  line-height: 3.6rem;
+}
+.lympha-wrapper {
+  margin-bottom: 50px;
+}
+.headspa_wrapper {
+  margin-bottom: 100px;
+}
+@media(max-width: 1024px) {
+  section.menu {
+    padding-top: 50px;
+    margin: 0px 10vw 50px;
+  }
+  section.menu h2 {
+    font-size: 2.6rem;
+    margin: 50px 0;
+  }
+  section.menu h3 {
+    font-size: 2.3rem;
+    margin-top: 65px;
+    margin-bottom: 40px;
+  }
+  section.menu h4 {
+    font-size: 2.0rem;
+    line-height: 2.8rem;
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+  .title-wrapper {
+    margin-bottom: 7px;
+  }
+  .aroma-wrapper, .lympha-wrapper, .headspa_wrapper {
+    padding: 25px 20px;
+  }
+  .title-en {
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+  }
+  ul.price {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin: 18px 0;
+  }
+  .text-ja {
+    line-height: 2.6rem;
+  }
+  .text-en {
+    font-size: 1.4rem;
+    line-height: 23px;
+    letter-spacing: 0.16rem;
+    padding-bottom: 20px;
+  }
+  .customized_oils {
+    display: block;
+    margin: 35px 0;
+  }
+  .customized_oils h5 {
+    margin-bottom: 0px;
+  }
+   .customized_oils p.text-ja.pc_hide {
+    margin-top: 15px;
+  }
+  .customized_oils-image img {
+    width: 55vw;
+    margin-right: 0px;
+  }
+  .customized_oils p.text-ja {
+    margin: 25px 0;
+  }
+  .customized_oils-texts p.text-ja_2 {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin: 25px 0;
+  }
+  .headspa_wrapper {
+    margin-bottom: 50px;
+  }
+}
+/*Rserve_button*/
+.reserve img.lav_up, .reserve img.lav_down {
+  width: 32vw;
+}
+.reserve-wrapper {
+  padding-top: 30px;
+}
+.reserve-wrapper .text-ja {
+  font-size: 1.8rem;
+}
+.reserve_button {
+  margin: 25px 0 45px 0;
+}
+.reserve_button a.button {
+  color: #fffbf8;
+  background-color: #dd6b1f;
+  font-size: 2.4rem;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  padding: 8px 110px;
+  width: 160px;
+  margin: 0 auto;
+  transition: all 0.5s;
+}
+.reserve_button a.button:hover {
+  color: #fff;
+  background-color: #4f3821;
+  cursor: pointer;
+}
+.fa-chevron-right {
+  margin-left: 9px;
+}
+@media(max-width: 1024px) {
+  .reserve img.lav_up, .reserve img.lav_down {
+    width: 72vw;
+  }
+  .reserve_button a.button {
+    font-size: 1.8rem;
+    letter-spacing: 0.3rem;
+    padding: 4px 30px;
+    width: 150px;
+  }
+}
+/*Medi*/
+section.medical {
+  margin-bottom: 160px;
+}
+section.medical h3 {
+  font-size: 3.8rem;
+  margin-bottom: 28px;
+  letter-spacing: 0.3rem;
+}
+section.medical h5 {
+  font-size: 2.6rem;
+  letter-spacing: 0.3rem;
+  font-weight: normal;
+}
+.oriental {
+  margin-bottom: 250px;
+}
+.oriental-image img {
+  width: 80vw;
+  height: 270px;
+  object-fit: cover;
+  object-position: 0 53%;
+  margin-bottom: 120px;
+}
+.meditation-image img {
+    width: 80vw;
+    height: 270px;
+    object-fit: cover;
+    object-position: 0 50%;
+    margin-bottom: 120px;
+}
+
+p.text_ja {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.8rem;
+  line-height: 4.0rem;
+  letter-spacing: 0.18rem;
+}
+p.text_en {
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+  letter-spacing: 0.18rem;
+  width: 90%;
+}
+.oriental_title, .meditation_title {
+  margin-bottom: 95px;
+}
+.oriental_texts, .meditation_texts {
+  text-align: left;
+  padding: 0 10vw;
+}
+.text_ja_1, .text_en_1 {
+  margin-bottom: 40px;
+}
+.text_ja_2 {
+  margin-bottom: 50px;
+}
+@media(max-width: 1024px) {
+  section.medical {
+    margin: 130px 0;
+    padding: 0;
+  }
+  section.medical h3 {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+    margin-bottom: 17px;
+    letter-spacing: 0.3rem;
+  }
+  section.medical h5 {
+    font-size: 1.6rem;
+    letter-spacing: 0.18rem;
+  }
+  .oriental_title, .meditation_title {
+    margin-bottom: 50px;
+  }
+  .oriental-image img, .meditation-image img {
+    width: 100vw;
+    height: 155px;
+    object-fit: cover;
+    object-position: 0 53%;
+    margin-bottom: 50px;
+  }
+  .oriental_texts, .meditation_texts {
+    padding: 0 10vw;
+  }
+  p.text_ja {
+    font-size: 1.6rem;
+    letter-spacing: 0.13rem;
+    line-height: 1.9em;
+  }
+  p.text_en {
+    font-size: 1.4rem;
+    line-height: 23px;
+    letter-spacing: 0.16rem;
+    width: 100%;
+  }
+  .text_ja_1, .text_en_1 {
+    margin-bottom: 20px;
+  }
+  .text_ja_2 {
+    margin-bottom: 30px;
+  }
+  .oriental {
+    margin-bottom: 130px;
+  }
+}
