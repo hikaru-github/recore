@@ -1,0 +1,924 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main {
+background-image: url("../../images/photos/images/top_edit.jpg");
+height: 90vh;
+background-position: bottom;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+margin-bottom: 160px;
+}
+
+/*Slider image*/
+.slider img {
+/*    width: 100%;
+    height: 100vh;
+    max-height: 800px;
+    min-height: 700px; 
+    object-fit: cover;
+    object-position: top;*/
+}
+
+.main-filter { 
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 32vh;
+  left: 48%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.main-container {
+  display: none;
+  width: 100%;
+}
+.main-container img {
+  width: 9%;
+  height: auto;
+  margin: 10px;
+  opacity: 0.9;
+}
+.main-title {
+  padding: 15px 0;
+}
+.main-title h2 {
+  font-family: 'Noto Serif JP', serif;
+  color: #fff;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
+  font-weight: normal;
+  margin-bottom: 1vw;
+  text-shadow: 1px 1px 3px gray;
+}
+.main-title p {
+  font-size: 2.0rem;
+  color: #fff;
+  text-shadow: 1px 1px 3px gray;
+}
+@media(max-width: 1024px) {
+  .main {
+    background-image: url("../../images/photos/images/top_sp.jpg");
+    height: 100vh;
+    background-position: left 0 bottom 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 80px;
+  }
+  .main-filter {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 75vw;
+    max-width: 395px;
+    height: 45vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 20px;
+  }
+  .main-container img {
+    width: 18vh;
+    height: auto;
+    margin: 5px;
+  }
+  .main-title {
+    padding: 15px 0;
+  }
+  .main-title h2 {
+    color: #4f3821;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.12rem;
+    text-shadow: none;
+  }
+  .main-title p {
+    color: #4f3821;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.18rem;
+    text-shadow: none;
+  }
+  .main-title span.ten_hide {
+    display: none;
+  }
+}
+/*ここまでがメインイメージ*/
+/*What's Holisctic PC ver*/
+.home_aroma {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  padding-bottom: 160px;
+  max-width: 1300px;
+}
+.home_aroma_image {
+  flex-grow: 1;
+}
+.home_aroma_texts {
+  flex-grow: 1;
+}
+.home_aroma_image img {
+  width: auto;
+  height: 660px;
+}
+.fadeInDown {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:1s;
+ -ms-animation-duration:1s;
+ animation-duration:1s;
+ -webkit-animation-name: fadeInDown;
+ animation-name: fadeInDown;
+ visibility: visible !important;
+}
+.fadeIn {
+  animation-fill-mode:both;
+  animation-duration: 0.5s;
+  animation-name: fadeIn;
+  visibility: visible !important;
+}
+
+/*@-webkit-keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); }
+}*/
+@keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
+.home_aroma_image h3 {
+  display: none;
+}
+.home_aroma_texts {
+  padding-left: 50px;
+  text-align: left;
+}
+.home_aroma_texts h3 {
+  background-image: url("../../images/photos/images/aroma_h3.jpg");
+  -webkit-background-clip: text;
+  background-position: right;
+  color: transparent;
+  font-weight: normal;
+  line-height: 7rem;
+  letter-spacing: 0.7rem;
+  margin-bottom: 20px;
+}
+.home_aroma_ja {
+  font-family: 'Noto Serif JP', serif;
+  line-height: 3.8rem;
+  letter-spacing: 0.16rem;
+  margin-bottom: 10px;
+}
+.home_aroma_en {
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  padding-bottom: 40px;
+}
+.fa-chevron-right {
+  transition: all 0.5s;
+  margin-left: 9px;
+}
+ a.button:hover .fa-chevron-right {
+  margin-left: 15px
+}
+.more_button a.button {
+  display: block;
+  position: relative;
+  color: #fffbf8;
+  background-image: url("../../images/sozai/button_bgc.jpg");
+  background-position: revert;
+  font-size: 2.0rem;
+  letter-spacing: 0.4rem;
+  width: 285px;
+  border: 1px solid #4f3821;
+}
+.more_button a.button:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  background-color: #fffbf8;
+  z-index: 1;
+}
+.more_button a.button span {
+  position: relative;
+  z-index: 2;
+  display: block;
+  padding: 9px 40px 9px 55px;
+  font-weight: bold;
+  background-image: url("../../images/sozai/button_bgc.jpg");
+  -webkit-background-clip: text;
+  background-position: bottom;
+  color: transparent;
+}
+.more_button a.button:hover {
+  transition: all 0.5s;
+  opacity: 0.5;
+}
+
+/*What's Holisctic SP ver*/
+@media(max-width: 1024px) {
+  .home_aroma {
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+  .home_aroma_image {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  .white_filter  {
+    background-color: #fff;
+    position: absolute;
+    bottom: -10px;
+    right: calc(20% - 20px);
+    width: 270px;
+    height: 112px;
+    z-index: 55;
+  }
+  .home_aroma_image h3 {
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    right: calc(20% - 20px);
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.5rem;
+    text-align: left;
+    padding: 15px 14px;
+    box-shadow: -2px 2px 6px grey;
+    z-index: 99;
+    background-image: url("../../images/photos/images/aroma_h3.jpg");
+    -webkit-background-clip: text;
+    background-position: bottom;
+    color: transparent;
+  }
+  .home_aroma_image img {
+    width: 35vh;
+    height: auto;
+  }
+  .home_aroma_texts {
+    padding: 0 35px;
+    margin: 0px 0 60px;
+  }
+  .home_aroma_texts h3 {
+    display: none;
+  }
+  .sp_hide {
+    display: none;
+  }
+  .home_aroma_ja {
+    max-width: 465px;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    line-height: 2.6rem;
+    padding: 15px 0;
+    margin: 0 auto;
+  }
+  .home_aroma_en {
+    max-width: 465px;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    line-height: 2.0rem;
+    padding-bottom: 30px;
+  }
+  .more_button {
+    text-align: center;
+    margin: 0px auto;
+    max-width: 465px;
+  }
+  .more_button a.button {
+    font-size: 1.6rem;
+    letter-spacing: 0.4rem;
+    text-align: left;
+    padding: 0;
+    width: 250px;
+  }
+}
+/* Why Yoro PC */
+.home_yoro {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  padding-bottom: 160px;
+  max-width: 1300px;
+}
+.home_yoro_image {
+  flex-grow: 1;
+}
+.home_yoro_texts {
+  flex-grow: 1;
+}
+.home_yoro_image img {
+  width: auto;
+  height: 660px;
+}
+.home_yoro_image h3 {
+  display: none;
+}
+.home_yoro_texts {
+  color: #4f3821;
+  padding-left: 50px;
+  text-align: left;
+  width: 38%;
+}
+.home_yoro_texts h3 {
+  background-image: url("../../images/photos/images/yoro_h3.jpg");
+  -webkit-background-clip: text;
+  background-position: center;
+  color: transparent;
+  font-weight: normal;
+  line-height: 7rem;
+  letter-spacing: 0.8rem;
+  margin-bottom: 28px;
+}
+.home_yoro_ja {
+  font-family: 'Noto Serif JP', serif;
+  margin-bottom: 15px;
+  line-height: 3.6rem;
+}
+.home_yoro_en {
+  font-size: 1.6rem;
+  line-height: 3.0rem;
+  padding-bottom: 40px;
+}
+/* Why Yoro SP */
+@media(max-width: 1024px) {
+  .home_yoro {
+    padding-bottom: 55px;
+    flex-direction: column-reverse;
+  }
+  .home_yoro_image img {
+    width: 35vh;
+    height: auto;
+  }
+  .home_yoro_image {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  .home_yoro_image .white_filter  {
+    width: 262px;
+    height: 87px;
+    z-index: 55;
+  }
+  .home_yoro_image h3 {
+    position: absolute;
+    bottom: -10px;
+    right: calc(20% - 20px);
+    font-size: 2.3rem;
+    line-height: 2.9rem;
+    letter-spacing: 0.5rem;
+    text-align: left;
+    padding: 15px 26px;
+    box-shadow: -2px 2px 6px grey;
+    z-index: 99;
+    background-image: url("../../images/photos/images/yoro_h3.jpg");
+    -webkit-background-clip: text;
+    background-position: bottom;
+    color: transparent;
+  }
+  .home_yoro_texts h3 {
+    display: none;
+  }
+  .home_yoro_image h3 {
+    display: block;
+  }
+  .home_yoro_texts {
+    padding: 0px 35px;
+    margin: 0px 0 60px;
+    width: 100%;
+  }
+    .yoro_ja_1 {
+    padding: 15px 0;
+  }
+  .yoro_ja_2 {
+    padding-bottom: 15px;
+  }
+  .home_yoro_ja {
+    max-width: 465px;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    line-height: 2.6rem;
+    margin: 0px auto;
+  }
+  .home_yoro_en {
+    max-width: 465px;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    line-height: 2.0rem;
+    margin:  0 auto;
+    padding-bottom: 30px;
+  }
+}
+
+/*Therapist PC*/
+
+.therapist_title_wrapper {
+  position: relative;
+}
+.therapist h3 {
+  margin-bottom: 100px;
+}
+.therapist_wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 80px 160px;
+  width: 100%;
+  max-width: 1400px;
+  text-align: left; 
+}
+.therapist_img {
+  flex-grow: 1;
+}
+.therapist_text {
+  flex-grow: 1;
+}
+.therapist_image {
+  width: 43%;
+}
+.therapist_image img {
+  width: 100%;
+  border-radius: 70px;
+}
+.therapist_text {
+  width: 50%;
+  margin: 20px 0px 20px 55px;
+  max-width: 80%;
+}
+.therapist_text h4 {
+  font-size: 3.3rem;
+  letter-spacing: 0.3rem;
+  line-height: 5.5rem;
+  margin: 20px 0;
+}
+.therapist_text p.therapist_text_ja {
+  font-family: 'Noto Serif JP', serif;
+  margin-bottom: 20px;
+  line-height: 3.6rem;
+  letter-spacing: 0.13rem;
+}
+.therapist_text p.therapist_text_en {
+  padding-bottom: 15px;
+  font-size: 2.2rem;
+  line-height: 4.0rem;
+}
+
+.therapist_text p.therapist_text_en_2 {
+  font-size: 1.6rem;
+  line-height: 3.0rem;
+  padding-bottom: 40px;
+}
+/*Therapist SP*/
+
+@media(max-width: 1024px) {
+  .therapist {
+    margin-bottom: 55px;
+}
+  .therapist h3 {
+    margin-bottom: 45px;
+  }
+  .therapist_wrapper {
+    flex-direction: column;
+     padding: 0;
+    text-align: center; 
+  }
+  .therapist_image {
+    width: 100%;
+  }
+  .therapist_image img {
+    width: 35vh;
+    height: auto;
+    border-radius: 30px;
+    padding: 0 15px;
+  }
+  .therapist_text {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .therapist_text h4 {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  letter-spacing: 0.2rem;
+    font-weight: bold;
+     margin: 0 0 3px;
+  }
+  .therapist_text p.pc_hide {
+    display: block;
+    margin-bottom: 26px;
+  }
+  .therapist_text p.therapist_text_ja {
+    font-size: 0.9em;
+    padding-bottom: 10px;
+    line-height: 2.6rem;
+    text-align: left;
+    margin: 0px auto;
+    max-width: 474px;
+  }
+  .therapist_text p.therapist_text_en {
+    display: none;
+  }
+  .therapist_text p.therapist_text_en_2 {
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    line-height: 2.0rem;
+    text-align: left;
+    margin: 0px auto;
+    max-width: 474px;
+  }
+}
+
+/*Menu PC*/
+.menu {
+  margin-bottom: 160px;
+}
+.menu-container {
+  background-color: #fff;
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  border-radius: 30px;
+}
+.menu-container h3 {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.menu_aromaoil, .menu_oillympha, .menu_headspa {
+  margin: 45px 0;
+}
+.menu-container h5 {
+  font-size: 3.0rem;
+  line-height: 6.0rem;
+  font-weight: normal;
+}
+.menu-container p {
+    font-size: 1.8rem;
+  line-height: 3.0rem;
+  margin-bottom: 10px;
+}
+.menu-container ul {
+  font-family: 'Noto Serif JP', serif;
+  letter-spacing: 0.4rem;
+}
+p.plus, h4.plus {
+  color: #4f3821;
+}
+.menu-container p.plus {
+  font-size: 5.0rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.menu-container h4 {
+  font-size: 3.6rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 50px;
+}
+.menu_oillympha, .menu_headspa {
+  padding-bottom: 25px;
+}
+.menu-container .button {
+  margin: 0 auto;
+}
+.menu-container .more_button {
+  text-align: left;
+}
+.menu-container .more_button a.button:before {
+  background-color: #fff;
+}
+
+img.lave_up , img.lave_down {
+  width: 480px;
+  height: auto;
+}
+.lave_up {
+  margin-bottom: 55px;
+}
+.lave_down {
+  margin-top: 100px;
+}
+
+/*Menu SP*/
+
+@media(max-width: 1024px) {
+  .menu {
+    padding: 0 20px;
+    margin-bottom: 80px;
+  }
+  .menu-container {
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 70px;
+}
+  .menu-container h3 {
+  padding-top: 70px;
+  margin-bottom: 40px;
+}
+  .menu-container h5 {
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+  }
+  .menu-container p {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  .menu-container p.plus {
+    font-size: 4.0rem;
+    margin: 30px 0;
+  }
+  .menu-container h4 {
+    font-size: 2.0rem;
+    margin-bottom: 40px;
+  }
+  .menu-container ul {
+    line-height: 2.8rem;
+  }
+  .menu_aromaoil, .menu_oillympha, .menu_headspa {
+  margin: 10px 0;
+}
+  .menu_headspa {
+    margin-bottom: 20px;
+  }
+  img.lave_up {
+    margin-bottom: 35px;
+  }
+  img.lave_up , img.lave_down {
+    width: 254px;
+}
+.lave_down {
+  margin-top: 45px;
+}
+}
+
+/*ここからアクセス*/
+
+.access {
+  color: #4f3821;
+  padding: 0 60px;
+  margin-bottom: 160px;
+}
+.access h3 {
+  padding-bottom: 100px;
+}
+.access-container {
+  padding: 0 60px 60px;
+}
+.accesss-train-container {
+  padding-bottom: 20px;
+}
+.accesss-train-container, .access-car-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  text-align: left; 
+   margin: 0 auto;
+}
+  p.access-train-title, p.access-car-title {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-top: 10px;
+    letter-spacing: 0.3rem;
+  }
+.access-train-texts, .access-car-texts {
+    width: 48%;
+    margin: 19px 0 20px 100px;
+    min-width: 608px;
+    background-color: white;
+    padding: 32px 41px;
+    border-radius: 30px;
+    }    
+.access-train-image img, .access-car-image img {
+  height: 25vh;
+}
+.access-tr_tokyo_ja {
+  margin-bottom: 13px;
+}
+.access-ja {
+  font-family: 'Noto Serif JP', serif;
+  line-height: 3.6rem;
+}
+.access-en {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin-bottom: 20px;
+}
+.access-train-texts p.access-en {
+  margin-bottom: 35px;
+}
+.access-tr_ohara p.access-en, .access-car-texts p.access-en {
+  margin-bottom: 0;
+}
+.animate__fadeInDown {
+  transition: all 2.0s;
+}
+
+.access-walk {
+  width: 50%;
+  color: #dd6b1f;
+  padding: 30px 0 10px;
+  margin: 0 auto;
+}
+.access-walk h5 {
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+.access_map {
+  display: flex;
+  align-items: center;
+  max-width: 1300px;
+  padding: 70px 60px 0;
+  margin: 0 auto;
+}
+.access_map_google {
+  margin: 0 auto;
+}
+.access_map iframe {
+  width: 50vh;
+  height: 50vh;
+}
+.access_map_text {
+  color: #4f3821;
+  padding-left: 70px;
+  margin: 0 auto;
+}
+.access_map_text p {
+  text-align: left;
+}
+.access-map_text_ja {
+  margin-bottom: 25px;
+}
+
+@media(max-width: 1024px) {
+  .access {
+    padding: 0;
+    margin-bottom: 0px;
+  }
+  .access h3 {
+    padding-bottom: 40px;
+  }
+ .access-container {
+    padding: 0;
+  }
+  .accesss-train-container, .access-car-container {
+    text-align: center;
+    flex-direction: column;
+    padding: 0 35px;
+  }
+  .access-train-image img, .access-car-image img {
+  height: 17vh;
+  width: auto;
+  }
+  .access-train-texts, .access-car-texts {
+    width: 100%;
+    min-width: 265px;
+    margin: 20px 0 35px;
+    padding: 30px 24px;
+    text-align: left;
+    } 
+  .access-car-texts {
+    margin-bottom: 0;
+  }
+  .access-container p.access-ja {
+    line-height: 2.6rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 10px;
+  }
+  .access-tr_tokyo p.access-en {
+    margin-bottom: 40px;
+  }
+  .access-ja span.bold {
+    font-size: 1.6rem;
+    line-height: 3.5rem;
+}
+ p.access-en {
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    line-height: 2.0rem;
+  }
+  .access-walk {
+    width: 100%;
+    margin: 35px 0;
+    padding: 0;
+}
+  .access-walk p.access-en {
+    margin-bottom: 0;
+  }
+  
+  /*map*/
+  .access_map {
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+}
+  .access_map iframe {
+  width: 90vw;
+  height: auto;
+  }
+  .access_map_text {
+    padding: 30px 35px;
+  }
+  .access_map_text_ja {
+    margin-bottom: 26px;
+    line-height: 2.8rem;
+  }
+   .access_map_text p.access_map_text_en {
+  margin-bottom: 15px;
+}
+ }
+
+/*お問い合わせくま*/
+.inquiry {
+  background-color: #005c42;
+  height: 375px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.inquiry_texts {
+  color: #fffbf8;
+  padding: 0 10px 0 50px;
+}
+
+.inquiry_image img {
+  width: 220px;
+}
+.inquiry_texts h5 {
+  font-family: 'Noto Serif JP', serif;
+  padding-bottom: 15px;
+  font-size: 2.6rem;
+  letter-spacing: 0.2rem;
+  font-weight: normal;
+}
+.inquiry_texts p.access-en {
+  margin-bottom: 45px;
+  letter-spacing: 0.2rem;
+}
+.inquiry_button a.button {
+  color: #fffbf8;
+  background-color: #dd6b1f;
+  font-size: 2.2rem;
+  text-align: left;
+  letter-spacing: 0.5rem;
+  padding: 10px 85px;
+  width: 160px;
+  margin: 0 auto;
+  transition: all 0.5s;
+}
+.inquiry_button a.button:hover {
+  color:#fff;
+  background-color: #4f3821;
+  cursor: pointer;
+}
+.inquiry_button .fa-chevron-right {
+  transition: none;
+  margin-left: 9px;
+}
+.inquiry_button a.button:hover .fa-chevron-right {
+  margin-left: 9px
+}
+@media(max-width: 1024px) {
+  .inquiry {
+    height: 320px;
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+}
+  .inquiry_image img {
+  width: 93px;
+  }
+  .inquiry_texts {
+    padding: 0;
+  }
+  .inquiry_texts h5 {
+  padding-top: 20px;
+  padding-bottom: 18px;
+  font-size: 1.8rem;
+  }
+  .inquiry_texts p.access-en {
+    margin-bottom: 25px;
+  }
+  .inquiry_button a.button {
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    text-align: center;
+    padding: 5px 55px;
+    width: 350px;
+    margin: 0 auto;
+    /*border: 1px solid #fff;*/
+  }
+  }
