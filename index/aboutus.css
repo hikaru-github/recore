@@ -1,0 +1,397 @@
+@charset "utf-8";
+/* CSS Document */
+.concept {
+  color: #fffbf8;
+  background-image: url("../../images/photos/aboutus_top_edit.jpg");
+  max-height: 1120px;
+  background-position: center;
+  /*background-size: auto 100%;*/
+  background-repeat: no-repeat;
+  padding-bottom: 60px;
+  margin-bottom: 160px;
+}
+.concept h2 {
+  padding-top: 100px;
+  margin-bottom: 55px;
+  font-size: 5.2rem;
+  letter-spacing: 0.5rem;
+  font-weight: normal;
+}
+.concept_text-wrapper {
+  background-color: rgba(0, 92, 66, 0.8);
+  max-width: 740px;
+  height: auto;
+  padding: 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.concept_text-wrapper {
+    animation-name: fadein;
+    animation-duration: 3s;
+}
+@keyframes fadein {
+from {
+    opacity: 0;
+    transform: translateY(20px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+.concept-ja {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.2rem;
+}
+.concept-en {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.18rem;
+  margin-top: 8px;
+}
+.concept_text_first, .concept_text_second, .concept_text_third {
+  margin-bottom: 45px;
+}
+@media(max-width: 1024px) {
+  .concept {
+    max-height: 970px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+  }
+  .concept h2 {
+    padding-top: 92px;
+    margin-bottom: 30px;
+    font-size: 2.6rem;
+  }
+  .concept_text-wrapper {
+    max-width: 340px;
+    padding: 30px 20px;
+  }
+  .concept-ja {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.13rem;
+  }
+  .concept-en {
+    font-size: 1.2rem;
+    line-height: 2.0rem;
+    letter-spacing: 0.16rem;
+    margin-top: 5px;
+  }
+  .concept_text_first {
+    margin-top: 5px;
+  }
+  .concept_text_third {
+    margin-bottom: 5px;
+  }
+  .concept_text_first, .concept_text_second, .concept_text_third {
+    margin-bottom: 35px;
+  }
+}
+/*What is Holistic Aromathrapy?*/
+section.holistic_aroma {
+  position: relative;
+  text-align: center;
+  margin-bottom: 160px;
+}
+.holistic_aroma_title-wrapper {
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.fadeInDown {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:1s;
+ -ms-animation-duration:1s;
+ animation-duration:1s;
+ -webkit-animation-name: fadeInDown;
+ animation-name: fadeInDown;
+ visibility: visible !important;
+}
+@keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
+
+.circle {
+    position: absolute;
+    top: -38px;
+    left: calc(50% - 500px);
+    z-index: -1;
+}
+.circle img {
+  width: 220px;
+  height: 220px;
+}
+.holistic_aroma_title-wrapper {
+  z-index: 1;
+}
+.holistic_aroma_title-wrapper h3 {
+  font-size: 5.0rem;
+  letter-spacing: 0.9rem;
+  line-height: 6.5rem;
+  text-align: left;
+  width: 760px;
+  margin: 0 auto;
+}
+.holistic_aroma_title-wrapper h3 .smaller {
+  font-size: 4.2rem;
+  line-height: 6rem;
+  letter-spacing: 0.9rem;
+}
+.holistic_aroma_texts-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 70%;
+  padding: 60px 0 100px;
+}
+.holistic_aroma_texts-wrapper-ja .oils {
+    width: 975px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.holistic_aroma_texts-wrapper-ja {
+  font-family: 'Noto Serif JP', serif;
+  text-align: left;
+  font-size: 1.8rem;
+  line-height: 4.0rem;
+  letter-spacing: .1em;
+  margin: 0 auto;
+  padding: 0px 0 50px 3vw;
+}
+.holistic_aroma_texts-wrapper-en {
+  text-align: left;
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+  letter-spacing: 0.18rem;
+  margin: 0 auto;
+  padding-left: 3vw;
+}
+.holistic_aroma_texts-wrapper-en .oils {
+  width: 975px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+  p.holistic_aroma-ja {
+    width: 975px;
+    margin: 0 auto;
+}
+p.holistic_aroma-en {
+    width: 975px;
+    margin: 0 auto;
+}
+.holistic_aroma-image {
+  height: 50vh;
+  max-height: 345px;
+  background: url("../../images/photos/christin-hume-0MoF-Fe0w0A-unsplash.jpg")center center / cover no-repeat;
+  background-position: left;
+  margin: 0 auto;
+}
+@media(max-width: 1024px) {
+  section.holistic_aroma {
+    padding: 0;
+    margin-bottom: 80px;
+  }
+  .holistic_aroma_title-wrapper {
+    padding-bottom: 0;
+    padding-left: 20px;
+  }
+.circle {
+    top: -4px;
+    left: calc(20% - 45px);
+}
+.circle img {
+  width: 120px;
+  height: 120px;
+}
+  .holistic_aroma_title-wrapper h3 {
+    width: 100%;
+    font-size: 1.6em;
+    letter-spacing: 0.4rem;
+    line-height: 3.4rem;
+    margin-left: 0px;
+  }
+  .holistic_aroma_title-wrapper h3 .smaller {
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 0.3rem;
+  }
+  .holistic_aroma_texts-wrapper {
+  line-height: 2.6rem;
+  max-width: 100%;
+  padding: 60px 10vw 30px;
+  }
+  .holistic_aroma_texts-wrapper-ja .oils {
+   width: 100%;
+    margin: 20px 0;
+    padding:0;
+  }
+  .holistic_aroma_texts-wrapper-en .oils {
+    width: 100%;
+  }
+  
+  .holistic_aroma_texts-wrapper-ja {
+    font-size: 1.6rem;
+    letter-spacing: 0.14rem;
+    line-height: 1.9em;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  .holistic_aroma_texts-wrapper-en {
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 23px;
+    letter-spacing: 0.16rem;
+    padding: 0;
+  }
+  p.holistic_aroma-ja,p.holistic_aroma-en {
+    width: 100%;
+  }
+  .holistic_aroma-image {
+    width: 100%;
+    margin-top: 30px;
+    padding-top: calc(300 / 1000 * 100%);
+    max-height: 120px;
+    margin-bottom: 130px;
+  }
+}
+/*Consider enviroment*/
+
+section.environment {
+  text-align: center;
+  margin-bottom: 160px;
+  position: relative;
+}
+.environment_title-wrapper {
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.environment_title-wrapper h3 {
+  font-size: 5.0rem;
+  line-height: 6.5rem;
+  letter-spacing: 0.9rem;
+  text-align: left;
+  width: 760px;
+  margin: 0 auto;
+}
+.environment_title-wrapper h3 .smaller {
+  font-size: 4rem;
+  line-height: 5rem;
+  letter-spacing: 0.9rem;
+}
+.environment_texts-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 70%;
+  padding: 60px 0 100px;
+}
+.environment_texts-wrapper-ja .oils {
+    width: 975px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.environment_texts-wrapper-ja {
+  font-family: 'Noto Serif JP', serif;
+  text-align: left;
+  font-size: 1.8rem;
+  line-height: 4.0rem;
+  letter-spacing: 0.18rem;
+  margin: 0 auto;
+  padding: 0px 0 30px 3vw;
+}
+.environment-ja {
+    width: 975px;
+    margin: 0 auto;
+}
+.environment_texts-wrapper-en {
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+  letter-spacing: 0.18rem;
+  text-align: left;
+  padding-left: 3vw;
+  margin: 0 auto;
+}
+.environment_texts-wrapper-en .oils {
+    width: 975px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.environment-en {
+    width: 975px;
+    margin: 0 auto;
+}
+.environment-image {
+  height: 50vh;
+  max-height: 345px;
+  background: url("../../images/photos/jeremy-bishop-EwKXn5CapA4-unsplash.jpg") center center / cover no-repeat;
+  background-position: left;
+  margin: 0 auto;
+}
+@media(max-width: 1024px) {
+  section.environment {
+    padding: 0;
+    margin-bottom: 80px;
+  }
+  .environment_title-wrapper {
+    padding:0px;
+  }
+  .environment_title-wrapper h3 {
+    width: 100%;
+    font-size: 2.6rem;
+    letter-spacing: 0.4rem;
+    line-height: 3.4rem;
+    padding-left: 20px;
+    margin-left: 0px;
+  }
+  .environment_title-wrapper h3 .smaller {
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 0.3rem;
+  }
+  .environment_texts-wrapper {
+    padding-top: 60px;
+    max-width: 100%;
+    padding: 60px 10vw 30px;
+  }
+  .environment_texts-wrapper-ja p.oils {
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+  }
+  .environment_texts-wrapper-ja {
+    width: 100%;
+    margin-bottom: 0px;
+    font-size: 1.6rem;
+    letter-spacing: 0.14rem;
+    line-height: 2.6rem;
+    padding: 0;
+  }
+  .environment_texts-wrapper-en {
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 23px;
+    letter-spacing: 0.16rem;
+    padding: 0;
+  }
+  .environment-ja {
+    width: 100%;
+  }
+  .environment-en {
+    width: 100%;
+  }
+  .environment-image {
+    width: 100%;
+    margin-top: 30px;
+    padding-top: calc(300 / 1000 * 100%);
+    max-height: 120px;
+  }
+}
