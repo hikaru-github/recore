@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+.appointment {
+  padding: 0 10vw;
+}
+section.appo_top {
+  margin-top: 100px;
+}
+section.appo_top h2 {
+  font-size: 5.2rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 160px;
+  font-weight: normal;
+}
+section.appo_top h3 {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 2.6rem;
+  letter-spacing: 0.3rem;
+  margin: 50px 0;
+}
+.lave_up img, .lave_down img {
+  width: 32vw;
+  margin-bottom: 40px;
+}
+.appo_ja {
+  font-family: 'Noto Serif JP', serif;
+}
+.appo_en {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.2rem;
+}
+.appo_top_text_first {
+  margin-bottom: 30px;
+}
+.appo_top_text_second {
+  margin-bottom: 65px;
+}
+@media (max-width: 1024px) {
+  section.appo_top {
+  padding-top: 50px;
+  margin-top: 0px;
+}
+  section.appo_top h2 {
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-size: 2.0rem;
+  }
+  section.appo_top h3 {
+    font-size: 2.0rem;
+    letter-spacing: 0.2rem;
+    top: 10px;
+    left: 50px;
+    margin-bottom: 60px;
+  }
+  .lave_up img, .lave_down img {
+    width: 72vw;
+    margin-bottom: 35px;
+  }
+  p.appo_en {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    line-height: 2.0rem;
+    letter-spacing: 0.16rem;
+  }
+  .appo_top_text_first {
+    margin-bottom: 25px;
+  }
+  .appo_top_text_second {
+    margin-bottom: 35px;
+  }
+}
+/*form*/
+section.appo_form {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 100px 40px 100px;
+  margin: 0 auto;
+  max-width: 850px;
+}
+.appo_form_texts {
+  color: #dd6b1f;
+  margin-bottom: 60px;
+}
+.form_ja {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.8rem;
+  text-align: right;
+}
+.form_en {
+  font-size: 1.4rem;
+  text-align: right;
+  line-height: 1.8rem;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.name {
+  width: 215px;
+  margin-right: 35px;
+}
+#form_name, #form_add, #form_phone {
+  font-family: 'Noto Serif JP', serif;
+  padding: 5px 12px;
+  width: 376px;
+  height: 35px;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  color: #4f3821;
+}
+#form_course, #form_course_en {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.1em;
+  color: #4f3821;
+  padding: 5px;
+  width: 376px;
+  height: 39px;
+}
+#form_comment {
+  font-family: 'Noto Serif JP', serif;
+  padding: 10px 12px;
+  width: 376px;
+  height: 230px;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+}
+.comment {
+  margin-bottom: 30px;
+}
+.dates_wrapper {
+  color: #dd6b1f;
+  margin-bottom: 60px;
+}
+.dates_wrapper p.date_ja {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.6rem;
+}
+.dates_wrapper p.date_en {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+@media (max-width: 1024px) {
+    section.appo_form {
+    padding: 50px 18px 50px;
+  }
+  .appo_form_texts {
+  margin-bottom: 25px;
+}
+  .appo_form_texts .appo_ja {
+   font-size: 1.4rem;
+  }
+  .appo_form_texts .appo_en {
+    font-size: 1.2rem;
+    margin-bottom: 35px;
+  }
+  .form_ja {
+  font-size: 1.6rem;
+  text-align: left;
+}
+.form_en {
+  font-size: 1.2rem;
+  text-align: left;
+}
+  .name {
+    padding: 0 16px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+}
+  .wrapper {
+  display: block;
+}
+  #form_name, #form_add, #form_phone {
+  padding: 5px 5px;
+  width: 90%;
+  height: 30px;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+}
+  #form_course {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  padding: 3px 5px;
+  width: 90%;
+  height: 35px;
+}
+  #form_comment {
+  padding: 5px 8px;
+  width: 90%;
+  height: 190px;
+  font-size: 1.4rem;
+  letter-spacing: 0.18rem;
+}
+.dates_wrapper {
+  margin-bottom: 45px;
+}
+.dates_wrapper p.date_ja {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  padding-bottom: 8px;
+  width: 93%;
+  margin: 0 auto;
+}
+.dates_wrapper p.date_en {
+  font-size: 1.2rem;
+  line-height: 2.0rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+}
+
+/*privacy*/
+.privacy_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+#form_privacy {
+  width: 25px;
+  height: 25px;
+  margin-right: 30px;
+}
+p.pri_text_ja {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+}
+p.pri_text_en {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 1024px) {
+  .privacy_wrapper {
+  margin-bottom: 50px;
+}
+  #form_privacy {
+  width: 15px;
+  height: 15px;
+  margin-right: 12px;
+}
+  p.pri_text_ja {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+p.pri_text_en {
+  font-size: 1.0rem;
+} 
+}
+/*button*/
+.send_button a.button {
+  color: #fffbf8;
+  background-color: #dd6b1f;
+  font-size: 2.0rem;
+  text-align: center;
+  letter-spacing: 0.7rem;
+  padding: 8px 110px;
+  width: 160px;
+}
+.send_button a.button:hover {
+  color: #fff;
+  background-color: #4f3821;
+  border: 1px solid #4f3821;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+@media (max-width: 1024px) {
+  .send_button a.button {
+  font-size: 1.8rem;
+  letter-spacing: 0.4rem;
+  padding: 3px 70px;
+}
+}
+
+
+/*phone*/
+section.inquiry {
+  margin-top: 70px;
+  margin-bottom: 92px;
+}
+.inquiry_phone {
+  margin-bottom: 55px;
+}
+.inquiry_callBack {
+  margin-bottom: 68px;
+}
+
+@media (max-width: 1024px) {
+  section.inquiry {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+  .inquiry_phone {
+  margin-bottom: 30px;
+}
+  .inquiry_callBack {
+  margin-bottom: 35px;
+}
+  }
+
+
